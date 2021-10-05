@@ -5,8 +5,8 @@ import marked from "marked";
 import path from "path";
 import Link from "next/link";
 import Image from "next/image";
-import Layout from "../../components/Layout";
-import CategoryLabels from "../../components/CategoryLabels";
+import Layout from "@/components/Layout";
+import CategoryLabels from "@/components/CategoryLabels";
 
 const PostPage = ({
   frontmatter: { title, category, date, cover_image, author, author_image },
